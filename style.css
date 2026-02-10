@@ -2,58 +2,50 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    height: 100vh;
     margin: 0;
-    padding: 15px;
     background-color: #f9e3e3;
     font-family: 'Arial', sans-serif;
     flex-direction: column;
+  }
+  
+  .container {
     text-align: center;
-}
-
-.container {
-    text-align: center;
-    width: 100%;
-    max-width: 420px;
-}
-
-h1 {
-    font-size: clamp(1.6em, 6vw, 2.5em);
+  }
+  
+  h1 {
+    font-size: 2.5em;
     color: #d32f2f;
-    margin-bottom: 10px;
-}
-
-.buttons {
+  }
+  
+  .buttons {
     margin-top: 20px;
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-    flex-wrap: wrap;
-}
-
-.yes-button,
-.no-button {
-    font-size: clamp(1em, 4.5vw, 1.5em);
-    padding: 12px 22px;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-    touch-action: manipulation;
-}
-
-.yes-button {
+  }
+  
+  .yes-button {
+    font-size: 1.5em;
+    padding: 10px 20px;
+    margin-right: 10px;
     background-color: #4caf50;
     color: white;
-}
-
-.no-button {
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .no-button {
+    font-size: 1.5em;
+    padding: 10px 20px;
     background-color: #f44336;
     color: white;
-}
-
-.gif_container img {
-    max-width: 90%;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .gif_container img {
+    max-width: 100%;
     height: auto;
     border-radius: 10px;
     margin-top: 20px;
-}
+  }
